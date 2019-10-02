@@ -1,0 +1,11 @@
+plugin:
+    name: 's3.film::lang.plugin.name'
+    description: 's3.film::lang.plugin.description'
+    author: S3
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Category
+        url: s3/film/category
+        icon: icon-life-ring

@@ -1,0 +1,10 @@
+name: Category
+form: $/s3/film/models/category/fields.yaml
+modelClass: S3\Film\Models\Category
+defaultRedirect: s3/film/category
+create:
+    redirect: 's3/film/category/update/:id'
+    redirectClose: s3/film/category
+update:
+    redirect: s3/film/category
+    redirectClose: s3/film/category

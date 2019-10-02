@@ -1,0 +1,8 @@
+columns:
+    name:
+        label: 's3.film::lang.plugin.name'
+        type: text
+        searchable: true
+    slug:
+        label: 's3.film::lang.plugin.category.slug'
+        type: text

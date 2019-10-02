@@ -1,0 +1,4 @@
+title: Category
+modelClass: S3\Film\Models\Category
+toolbar:
+    buttons: reorder_toolbar

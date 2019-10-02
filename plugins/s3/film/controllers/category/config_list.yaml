@@ -1,0 +1,13 @@
+list: $/s3/film/models/category/columns.yaml
+modelClass: S3\Film\Models\Category
+title: Category
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+showTree: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 's3/film/category/update/:id'
