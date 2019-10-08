@@ -1,8 +1,8 @@
 columns:
     name:
-        label: 's3.film::lang.plugin.name'
+        label: 'Tên loại'
         type: text
         searchable: true
     slug:
-        label: 's3.film::lang.plugin.category.slug'
+        label: slug
         type: text

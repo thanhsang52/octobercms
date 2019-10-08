@@ -3,4 +3,33 @@
 1.0.2:
     - 'Created table s3_film_categories'
     - builder_table_create_s3_film_categories.php
-
+1.0.3:
+    - 'Created table s3_film_films'
+    - builder_table_create_s3_film_films.php
+1.0.4:
+    - 'Updated table s3_film_films'
+    - builder_table_update_s3_film_films.php
+1.0.5:
+    - 'Updated table s3_film_films'
+    - builder_table_update_s3_film_films_2.php
+1.0.6:
+    - 'Updated table s3_film_films'
+    - builder_table_update_s3_film_films_3.php
+1.0.7:
+    - 'Updated table s3_film_films'
+    - builder_table_update_s3_film_films_4.php
+1.0.8:
+    - 'Created table s3_film_directors'
+    - builder_table_create_s3_film_directors.php
+1.0.9:
+    - 'Created table s3_film_categories_films'
+    - builder_table_create_s3_film_categories_films.php
+1.0.10:
+    - 'Updated table s3_film_categories_films'
+    - builder_table_update_s3_film_categories_films.php
+1.0.11:
+    - 'Updated table s3_film_categories_films'
+    - builder_table_update_s3_film_films_categories.php
+1.0.12:
+    - 'Updated table s3_film_films_categories'
+    - builder_table_update_s3_film_categories_films_2.php

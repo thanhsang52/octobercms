@@ -1,6 +1,6 @@
-list: $/s3/film/models/category/columns.yaml
-modelClass: S3\Film\Models\Category
-title: Category
+list: $/s3/film/models/director/columns.yaml
+modelClass: S3\Film\Models\Director
+title: Director
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
 showCheckboxes: true
@@ -9,4 +9,4 @@ toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
-recordUrl: 's3/film/category/update/:id'
+recordUrl: 's3/film/director/update/:id'

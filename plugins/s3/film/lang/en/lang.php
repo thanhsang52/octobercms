@@ -2,8 +2,9 @@
     'plugin' => [
         'name' => 'Film',
         'description' => '',
+        'category' => [
+            'slug' => 'Slug',
+        ],
     ],
-    'category' => [
-        'slug' => 'Slug',
-    ],
+    
 ];

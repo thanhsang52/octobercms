@@ -1,0 +1,76 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    status:
+        label: Status
+        options:
+            - unpublished
+            - published
+        showSearch: true
+        span: auto
+        type: dropdown
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    country:
+        label: 'Quốc gia'
+        options:
+            vn: 'Việt Nam'
+            us: USA
+            ko: 'Hàn Quốc'
+        showSearch: true
+        span: auto
+        type: dropdown
+    duration:
+        label: 'Thời lượng'
+        span: auto
+        type: text
+    quality:
+        label: 'Chất lượng'
+        options:
+            240: 240p
+            360: 360p
+            480: 480p
+            720: 720p
+        showSearch: true
+        span: auto
+        type: dropdown
+    tags:
+        label: Tags
+        mode: string
+        separator: comma
+        customTags: true
+        useKey: false
+        span: auto
+        type: taglist
+    director:
+        label: Director
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    categories:
+        label: Categories
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        mode: relation
+        type: taglist
+    thumbnail:
+        label: Thumbnail
+        mode: image
+        imageWidth: '120'
+        imageHeight: '160'
+        span: auto
+        type: mediafinder
+    content:
+        label: 'Nội dung'
+        size: ''
+        span: full
+        type: richeditor

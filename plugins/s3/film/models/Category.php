@@ -19,5 +19,11 @@ class Category extends Model
      * @var array Validation rules
      */
     public $rules = [
+        'name' => 'required|unique:s3_film_categories,name',
+        'slug' => 'required|unique:s3_film_categories,slug'
+    ];
+    public $customMessages = [
+        'name.required' => 'Name is required!',
+        'name.unique' => 'Name must be unique'
     ];
 }

@@ -1,11 +1,11 @@
 fields:
     name:
-        label: 's3.film::lang.plugin.name'
+        label: 'Tên loại'
         span: auto
         required: 1
         type: text
     slug:
-        label: 's3.film::lang.category.slug'
+        label: Slug
         span: auto
         preset:
             field: name

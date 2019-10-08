@@ -14,5 +14,6 @@ class Category extends Controller
     public function __construct()
     {
         parent::__construct();
+        BackendMenu::setContext('S3.Film', 'main-menu-item', 'side-menu-item2');
     }
 }

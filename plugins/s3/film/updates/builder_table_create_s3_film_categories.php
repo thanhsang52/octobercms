@@ -19,7 +19,7 @@ class BuilderTableCreateS3FilmCategories extends Migration
             $table->integer('nest_left')->nullable();
             $table->integer('nest_right')->nullable();
             $table->integer('nest_depth')->nullable();
-            $table->primary(['id']);
+            //$table->primary(['id']);
         });
     }
     

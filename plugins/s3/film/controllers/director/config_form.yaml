@@ -1,0 +1,10 @@
+name: Director
+form: $/s3/film/models/director/fields.yaml
+modelClass: S3\Film\Models\Director
+defaultRedirect: s3/film/director
+create:
+    redirect: 's3/film/director/update/:id'
+    redirectClose: s3/film/director
+update:
+    redirect: s3/film/director
+    redirectClose: s3/film/director

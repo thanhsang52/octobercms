@@ -6,6 +6,19 @@ plugin:
     homepage: ''
 navigation:
     main-menu-item:
-        label: Category
-        url: s3/film/category
-        icon: icon-life-ring
+        label: Film
+        url: s3/film/film
+        icon: icon-video-camera
+        sideMenu:
+            side-menu-item:
+                label: 's3.film::lang.plugin.name'
+                url: s3/film/film
+                icon: icon-film
+            side-menu-item2:
+                label: category
+                url: s3/film/category
+                icon: icon-sitemap
+            side-menu-item3:
+                label: Director
+                url: s3/film/director
+                icon: icon-wheelchair

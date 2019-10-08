@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: ID
+        type: text
+    title:
+        label: 'Tên phim'
+        type: text
+        searchable: true
+        sortable: true
+    country:
+        label: 'Quốc gia'
+        type: text
+        searchable: true
+    duration:
+        label: 'Thời lượng'
+        type: text

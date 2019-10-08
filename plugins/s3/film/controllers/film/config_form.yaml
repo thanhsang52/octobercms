@@ -1,0 +1,10 @@
+name: Film
+form: $/s3/film/models/film/fields.yaml
+modelClass: S3\Film\Models\Film
+defaultRedirect: s3/film/film
+create:
+    redirect: 's3/film/film/update/:id'
+    redirectClose: s3/film/film
+update:
+    redirect: s3/film/film
+    redirectClose: s3/film/film
