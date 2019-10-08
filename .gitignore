@@ -1,0 +1,11 @@
+/bootstrap/compiled.php
+/vendor
+/storage
+composer.phar
+.DS_Store
+.idea
+.env
+composer.lock
+
+# for netbeans
+nbproject
